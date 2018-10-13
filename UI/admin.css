@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+    font-size: 12px;
+    display: block;
+}
+.heading{
+    background-color: aliceblue;
+    padding: 20px;
+    min-height: 50px;
+    border-bottom: 3px black solid;
+}
