@@ -8,4 +8,8 @@ body{
     padding: 20px;
     min-height: 50px;
     border-bottom: 3px black solid;
+    text-align: center;
 }
+.navigation_bar{
+    font-size: 15px;
+}    
