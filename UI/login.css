@@ -7,7 +7,7 @@ body{
 input[type=email],[type=password]{
     width: 500px;
     box-lines: 3px; 
-    padding: 0 20px;
+    padding: 20px 20px;
    
 }
 .form{
