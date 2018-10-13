@@ -52,7 +52,7 @@ body{
 
     }    
     .showcase{
-        min-height: 400px;
+        min-height:400px;
         border-bottom: brown 3px solid;
         background: url(../Images/store3.jpg) ;
         font-size: 50px;

@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    margin-top: 20px;
+    font: bold;
+}
+input[type=text]{
+    width: 300px;
+    padding: 10px 10px;
+}
+input[type=button]{
+    background-color: green;
+}
