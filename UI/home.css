@@ -2,8 +2,10 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: aqua;
     margin: 0%;
+    
 
  }
+     
  .container{
      margin: auto;
      overflow: hidden;
