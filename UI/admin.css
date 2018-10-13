@@ -16,3 +16,11 @@ body{
 ul{
     margin: 12px;
 }
+.products{
+   text-align: center;
+}
+.table{
+    table-layout: auto;
+    margin-left: 570px;
+    
+    }
