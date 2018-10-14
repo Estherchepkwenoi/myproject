@@ -10,7 +10,7 @@ input[type=text],[type=password]{
     padding: 15px 20px;
    
 }
-.form{
+#login-form{
     font: bold;
     font-size: 20px;
     background-image: url(../Images/store2.jpg);
@@ -26,7 +26,18 @@ input[type=text],[type=password]{
     border-bottom: brown 4px solid;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-input[type=button]{
+#login-btn{
     color: black;
     background-color: green;
+}
+.forgot-user{
+    font-family: cursive;
+    font: bold;
+}
+.no-account{
+    font-style: italic;
+    font-size: 20px;
+}
+.contact{
+    font-family: cursive;
 }

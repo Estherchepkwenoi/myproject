@@ -4,6 +4,7 @@ body{
 }
 #search{
     float: right;
+    margin-right: 20px;
 }
 #navbar{
     margin: 0%;
@@ -20,4 +21,15 @@ body{
 #navbar .current{
   color:white;
   font-weight: bold;   
+}
+.buyerscart{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 300px;
+    
+}
+.table{
+    margin-left: 400px;
+   
 }
