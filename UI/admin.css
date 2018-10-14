@@ -14,6 +14,7 @@ body{
 }
 .navigation_bar{
     font-size: 15px;
+    font-weight: bold;
    
 }    
 ul{
@@ -36,7 +37,9 @@ ul{
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }    
-
+.navigation_bar .current{
+    color: antiquewhite;
+}
 
 
 
