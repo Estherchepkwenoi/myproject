@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+    font-family: cursive;
+}
+.heading{
+    text-align: center;
+    background-color: white;
+    min-height: 12px;
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+.add{
+    margin-left: 500px;
+    margin-right: 200px;
+    font-style: italic;
+    font: caption;
+}
+.button{
+    background-color: forestgreen;
+}

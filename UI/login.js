@@ -2,7 +2,7 @@ const form = document.getElementById("form");
 const username = document.getElementById("username");
 const password = document.getElementById("password");
 
-form,addEventListener("LOGIN",(event)=>{event.preventDefault();
+form.addEventListener("LOGIN",(event)=>{event.preventDefault();
 
     if(username.value =="admin" && password =="password"){
     window.location="./admin.html";
