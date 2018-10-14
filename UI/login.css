@@ -5,9 +5,9 @@ body{
     display: block;
 }
 input[type=text],[type=password]{
-    width: 500px;
+    width: 300px;
     box-lines: 3px; 
-    padding: 20px 20px;
+    padding: 15px 20px;
    
 }
 .form{
@@ -15,6 +15,8 @@ input[type=text],[type=password]{
     font-size: 20px;
     background-image: url(../Images/store2.jpg);
     border-bottom: brown 4px solid;
+    color: blue;
+   
      
 }
 .head{
@@ -22,6 +24,7 @@ input[type=text],[type=password]{
     color: black;
     min-height: 12px;
     border-bottom: brown 4px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 input[type=button]{
     color: black;

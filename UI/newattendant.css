@@ -1,8 +1,10 @@
 body{
     text-align: center;
-    background-color: aqua;
     margin-top: 20px;
     font: bold;
+    background-color: aqua;
+    max-width: 500px;
+    margin-left: 400px;
 }
 input[type=text]{
     width: 300px;
@@ -10,4 +12,16 @@ input[type=text]{
 }
 input[type=button]{
     background-color: green;
+   
 }
+.signup{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: palevioletred;
+  max-width: 700px;
+  align-content: center;
+}
+a{
+    text-align: center;
+}
+
+   

@@ -1,0 +1,16 @@
+body{
+  background-color: aqua;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+#header{
+    text-align: center;
+    background-color: beige;
+    border-bottom: brown 3px solid;
+    min-height: 12px;
+    max-width: 550px;
+    margin-left: 500px;
+}
+#sales{
+    margin-left: 530px;
+}

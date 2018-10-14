@@ -25,11 +25,17 @@ ul{
 .table{
     table-layout: fixed; 
     margin-left: 570px;
-    
+    min-height: 20px;
 }
     @media only screen and (max-width:600px){
         
     }
+.footer{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}    
 
 
 

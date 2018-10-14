@@ -1,0 +1,18 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:aquamarine; 
+}
+#search{
+    float: right;
+}
+#navbar{
+    margin: 0%;
+    padding: 0%;
+}
+.heading{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: cursive;
+    max-width: 500px;
+    margin-left: 400px; 
+}

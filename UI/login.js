@@ -1,23 +1,21 @@
-const form = document.querySelector("form");
-const username = document.querySelector("username");
-const password = document.querySelector("password");
+const form = document.getElementById("form");
+const username = document.getElementById("username");
+const password = document.getElementById("password");
 
-form,addEventListener("LOGIN",(e)=>{e.preventDefault()
+form,addEventListener("LOGIN",(event)=>{event.preventDefault();
 
-    if(username.value !=="admin" && password !=="password")
+    if(username.value =="admin" && password =="password"){
     window.location="./admin.html";
     
-    else if(username.value !=="attendant" && password !=="password")
-    window.location="./aattendant.html";
+      }else if(username.value =="attendant" && password =="password"){
+    window.location="./attendant.html";
 
-    else
-
-
-
-
-
-
-
+      }else{
+          alert("Invalid username or password");
+          username.value ="";
+          password.value ="";
+      }
+});      
 
 
 
@@ -26,4 +24,11 @@ form,addEventListener("LOGIN",(e)=>{e.preventDefault()
 
 
 
- []})
+
+
+
+
+
+
+
+ 
