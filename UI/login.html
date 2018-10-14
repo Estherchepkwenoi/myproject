@@ -12,13 +12,14 @@
         <div class="head" >
                 <h1>LOGIN</h1>
         </div>
-        <div id="form">
-        <form>
-                User Name:<br>
-                <input type="text" id="username"/><br>
-                Password<br>
-                <input type="password" id="password"/><br><br>
-                <a href="admin.html"><input type="button" value="LOGIN"></a><br>
+        <div id="login-form">
+        <form action="submit" id="form-login">
+                <input type="text" id="username" placeholder="Username" required/><br>
+                <input type="password" id="password" placeholder="password" required/><br><br>
+                <button id="login-btn">LOGIN IN</button>
+                <p class="forgot-user "><a href="#">forgot username</a></p>
+               <p class="no account">Don't hav an account?</p>
+
                
         </form>    
         </div>    
