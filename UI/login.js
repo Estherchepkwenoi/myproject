@@ -6,8 +6,11 @@ form,addEventListener("LOGIN",(e)=>{e.preventDefault()
 
     if(username.value !=="admin" && password !=="password")
     window.location="./admin.html";
-    } 
-    else if(username.value !==)
+    
+    else if(username.value !=="attendant" && password !=="password")
+    window.location="./aattendant.html";
+
+    else
 
 
 
@@ -23,5 +26,4 @@ form,addEventListener("LOGIN",(e)=>{e.preventDefault()
 
 
 
-
-
+ []})

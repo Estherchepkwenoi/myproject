@@ -1,7 +1,9 @@
 body{
     background-color: aqua;
     font-size: 12px;
-    display: block;
+    display: inline;
+    
+    
 }
 .heading{
     background-color: aliceblue;
@@ -12,6 +14,7 @@ body{
 }
 .navigation_bar{
     font-size: 15px;
+   
 }    
 ul{
     margin: 12px;
@@ -20,10 +23,10 @@ ul{
    text-align: center;
 }
 .table{
-    table-layout: auto;
+    table-layout: fixed; 
     margin-left: 570px;
     
-    }
+}
     @media only screen and (max-width:600px){
         
     }
