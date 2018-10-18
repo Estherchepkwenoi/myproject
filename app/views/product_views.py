@@ -17,4 +17,8 @@ def get_product(id):
             if product[key] == int(id):
                 returned_product.append(product)
 
-    return jsonify(returned_product)            
+    return jsonify(returned_product) 
+@bp.route('/')     
+def add_product():
+    
+

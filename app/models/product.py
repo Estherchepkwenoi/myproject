@@ -12,12 +12,20 @@ class Product:
 products = [
     {
     'id': 1,
-    'name': 'Radio',
-    'price': 2000000
+    'name': 'sugar',
+    'price': 2000000,
+    'quantity':100
     },
     {
     'id': 2,
-    'name': 'TV',
-    'price': 30000000
-}
+    'name': 'salt',
+    'price': 30000000,
+    'quantity':200
+   },
+  {
+    'id': 3,
+    'name': 'soap',
+    'price': 4000000,
+    'quantity':50
+    },
 ]
