@@ -1,4 +1,5 @@
 import uuid
+
 class sale:
     def __init__(self,name,quantity,price,date,totalcost,attendant,id=str(uuid.uuid4())):
         self.name=name

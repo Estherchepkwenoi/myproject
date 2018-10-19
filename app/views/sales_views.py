@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, Blueprint
 from app.models.sales import sales, sale
 
+
 bp = Blueprint('sales_views', __name__, url_prefix='/api/v1/sales')
 
 @bp.route('/')
