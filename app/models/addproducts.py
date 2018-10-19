@@ -1,6 +1,6 @@
 
 from flask import Flask, jsonify, Blueprint,json,request
-from app.models.product import products, product
+from app.models.addproducts import products, product
 
 
 bp = Blueprint('products', __name__, url_prefix='/api/v1/products')
@@ -16,8 +16,7 @@ def add_product():
 
 
     product=products.append(product)
-      return jsonify({product,'message': "added successfully"})
-
+     
 
 
 
