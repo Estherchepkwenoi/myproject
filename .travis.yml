@@ -6,7 +6,8 @@ install :
   - pip install -r requirements.txt
 
 requirements:
-  -pytest --cov 
+  - pytest --cov 
+  - python app.py
   
   after_success:
     -coveralls
