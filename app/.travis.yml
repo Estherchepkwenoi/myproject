@@ -1,0 +1,12 @@
+language : python
+python :
+  - 3.7.0
+
+install :
+  - pip install -r requirements.txt
+
+requirements:
+  -pytest --cov 
+  
+  after_success:
+    -coveralls
