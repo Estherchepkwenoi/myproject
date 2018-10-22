@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, Blueprint,json,request
 from app.models.sales import sales, sale
-from datetime import datetime 
+
 
 
 bp = Blueprint('sales', __name__, url_prefix='/api/v1/sales')
@@ -14,9 +14,13 @@ def add_sale():
         'name': request.json['name'],
         'totalcost':request.json['totalcost'],
         'attendant':request.json['attendant'],
-        'date':datetime.datetime.utcnow()
+        
     } 
-
+    if all(isinstance(x, str) for x in string_data) and all(isinstance(x, int) for x in int_data):
+           sale = {'id':len(sales) +1, 'name':name, 'quantity':quantity, 'price':price, 'totalcost':totalcost, 'attendant':attendant,}
+            sales.append(sale)
+            return product, 201
+        return {"message":"Enter valid values please"}, 400
 
     sale=sales.append(sale)
               

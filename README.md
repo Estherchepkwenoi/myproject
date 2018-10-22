@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/Estherchepkwenoi/myproject.svg?branch=master)](https://travis-ci.com/Estherchepkwenoi/myproject)
 [![Coverage Status](https://coveralls.io/repos/github/Estherchepkwenoi/myproject/badge.svg?branch=master)](https://coveralls.io/github/Estherchepkwenoi/myproject?branch=master)
 A STORE MANAGER....
 
