@@ -1,0 +1,35 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:aquamarine; 
+}
+#search{
+    float: right;
+    margin-right: 20px;
+}
+#navbar{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+}
+.heading{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: cursive;
+    max-width: 500px;
+    margin-left: 400px; 
+}
+#navbar .current{
+  color:white;
+  font-weight: bold;   
+}
+.buyerscart{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 300px;
+    
+}
+.table{
+    margin-left: 400px;
+   
+}

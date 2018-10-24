@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+input[type=text],[type=password]{
+    width: 300px;
+    box-lines: 3px; 
+    padding: 15px 20px;
+   
+}
+#login-form{
+    font: bold;
+    font-size: 20px;
+    background-image: url(../Images/store2.jpg);
+    border-bottom: brown 4px solid;
+    color: blue;
+   
+     
+}
+.head{
+    background-color: aliceblue;
+    color: black;
+    min-height: 12px;
+    border-bottom: brown 4px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#login-btn{
+    color: black;
+    background-color: green;
+}
+.forgot-user{
+    font-family: cursive;
+    font: bold;
+}
+.no-account{
+    font-style: italic;
+    font-size: 20px;
+}
+.contact{
+    font-family: cursive;
+}

@@ -1,0 +1,66 @@
+body{
+    background-color: aqua;
+    font-size: 12px;
+   
+    
+    
+}
+.heading{
+    background-color: aliceblue;
+    padding: 20px;
+    min-height: 50px;
+    border-bottom: 3px black solid;
+    text-align: center;
+}
+.navigation_bar{
+    font-size: 15px;
+    font-weight: bold;
+   
+}    
+ul{
+    margin: 12px;
+}
+.products{
+   text-align: center;
+}
+.table{
+   text-align: left;
+   height: 100%; 
+   margin-left: 10%;
+   margin-bottom: 50px;
+        
+    }
+    #heading{
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        padding: 8px;
+        background-color: #4CAF50;
+        color: white;
+        
+    }
+   
+.footer{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}    
+.navigation_bar .current{
+    color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

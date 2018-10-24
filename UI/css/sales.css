@@ -1,0 +1,19 @@
+body{
+  background-color: aqua;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+#header{
+    text-align: center;
+    background-color: beige;
+    border-bottom: brown 3px solid;
+    min-height: 12px;
+    max-width: 550px;
+    margin-left: 400px;
+}
+.heading{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+}
