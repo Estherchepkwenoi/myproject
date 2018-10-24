@@ -1,5 +1,5 @@
 from flask import jsonify
-from app.models.products import products, product
+from app.views.products import products 
 from app.models.sales import sales, sale 
 
 products=[]

@@ -1,10 +1,10 @@
-
-from flask import Flask, jsonify,request
+from app import app
+from flask import Flask, jsonify,request,json
 from app.models.product import products, Product
 from app.validations.validates import validates
+import uuid
 
-
-@app.route('api/v1/products')
+@app.route('api/v1/products',method="GET")
 def get_products():
     return jsonify(products)
 
@@ -29,9 +29,9 @@ def add_product(request):
         quantity =data.get_json('quantity')
         price = data.get_json('price') 
 
-        valid= validations.validates.validate_product_inputs(data['name'],data['quantity'],data['price']) 
+        valid= validates.validate_product_inputs(data['name'],data['quantity'],data['price']) 
         if valid== True:
-         new_product=Product(name,quantity,price.id)
-          return jsonify({"message":"product added successfully"}]),201
+            new_product=Product(name,quantity,price.id)
+            return jsonify({"message":"product added successfully"}]),201
         else:
             return valid
