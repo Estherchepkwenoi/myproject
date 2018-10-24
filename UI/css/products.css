@@ -12,10 +12,10 @@ body{
     border-bottom: 3px black solid;
     text-align: center;
 }
-.table{
-    table-layout: fixed; 
-    margin-left: 570px;
+.table {
+   margin-left: 20%;  
     min-height: 20px;
+    
 }
 .h{
     text-align: center;
