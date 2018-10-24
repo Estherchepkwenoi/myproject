@@ -1,4 +1,4 @@
-from app import app
+
 from flask import Flask, jsonify,request,json
 from app.models.product import products, Product
 from app.validations.validates import validates

@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
-from app import sales_views
-from app import sales_views
+from app.views import sales_views
+from views import product_views
 app = Flask(__name__)
 
 

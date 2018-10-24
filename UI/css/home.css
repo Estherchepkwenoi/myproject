@@ -55,7 +55,6 @@ body{
     .showcase{
         min-height:400px;
         border-bottom: brown 3px solid;
-        background-image: url(/Images/store2.jpg);
         font-size: 50px;
         font-style: italic;
         color: black;
