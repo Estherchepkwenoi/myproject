@@ -1,5 +1,5 @@
 from flask import jsonify
-from app.models.product import products, product
+from app.models.products import products, product
 from app.models.sales import sales, sale 
 
 products=[]
@@ -29,6 +29,24 @@ class validate():
     # method for validating the sales inputs
 
  def validate_sales(self,name,quantity,price,date,totalcost,attendant,id):
+     if name =='':
+        return jsonify({"message":"The name is missing"}), 400
+     elif quantity == '':
+        return jsonify({"message":"Quantity should not have spaces"}),400
+     elif price =='':
+        return jsonify({"message":"Price cannot be empty"}),400 
+     elif price =='':
+        return jsonify({"message":"price cannot be empty"}),400 
+     elif id=='':
+        return jsonify({"message":"id cannot be empty"}),400
+     elif date=='':
+        return jsonify({"message":"date  cannot be empty"}),400
+     elif totalcost=='':
+        return jsonify({"message":"totalcost  cannot be empty"}),400
+     elif attendant=='':
+        return jsonify({"message":"attendant cannot be empty"}),400      
+     else:
+        return True 
 
 
            

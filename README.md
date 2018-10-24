@@ -6,6 +6,7 @@ This is a web system that allows a store owner and the attendant to manage the s
 
 
 #Getting started
+The user interface is hosted at https://github.com/Estherchepkwenoi/myproject/blob/master/UI/home.html
 ##Requirements
   *windows os
   *python 3.7.0

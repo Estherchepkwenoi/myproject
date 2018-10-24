@@ -1,14 +1,14 @@
 
-from flask import Flask, jsonify, Blueprint,request
+from flask import Flask, jsonify,request
 from app.models.product import products, Product
+from app.validations.validates import validates
 
-bp = Blueprint('products_views', __name__, url_prefix='/api/v1/products')
 
-@bp.route('/')
+@app.route('api/v1/products')
 def get_products():
     return jsonify(products)
 
-@bp.route('/<id>')
+@app.route('api/v1/products/<id>')
 def get_product(id):
     returned_product = []
     for product in products:
@@ -19,16 +19,19 @@ def get_product(id):
 
     return jsonify(returned_product) 
     
-    @bp.route('/myproject/api/v1/products',methods=['POST'])
-    def add_product(request):
-     
-      product = {
-        'id': request.json['id'],
-        'price': request.json['price'],
-        'quantity':request.json['quantity'],
-        'name': request.json['name']
-    } 
+@bp.route('/myproject/api/v1/products',methods=['POST'])
+def add_product(request):
+    #method for adding a product intoa list of products  
+    try: 
+        data=request.get_json()
+        id=int(str(uuid.uuid4())) 
+        Name = data.get_json('name')
+        quantity =data.get_json('quantity')
+        price = data.get_json('price') 
 
-    product=products.append(product)
-    
-
+        valid= validations.validates.validate_product_inputs(data['name'],data['quantity'],data['price']) 
+        if valid== True:
+         new_product=Product(name,quantity,price.id)
+          return jsonify({"message":"product added successfully"}]),201
+        else:
+            return valid

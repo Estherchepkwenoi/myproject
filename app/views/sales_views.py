@@ -1,14 +1,13 @@
-from flask import Flask, jsonify, Blueprint
+from flask import Flask, jsonify
 from app.models.sales import sales, sale
 
 
-bp = Blueprint('sales_views', __name__, url_prefix='/api/v1/sales')
 
-@bp.route('/')
+@app.route('/api/v1/sales',method="GET")
 def get_get():
     return jsonify(sales)
 
-@bp.route('/<id>')
+@app.route('/api/v1/sales/<id>')
 def get_sale(id):
     returned_sale = []
     for sale in sales:
@@ -18,7 +17,7 @@ def get_sale(id):
                 returned_sale.append(sale)
 
     return jsonify(returned_sale) 
-    @bp.route('/myproject/api/v1/sales',methods=['POST'])
+    @app.route('/myproject/api/v1/sales',methods=['POST'])
     def add_sale():
       sale = {
         'id': request.json['id'],
