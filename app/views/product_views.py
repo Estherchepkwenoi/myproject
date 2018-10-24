@@ -20,14 +20,14 @@ def get_product(id):
     return jsonify(returned_product) 
     
     @bp.route('/myproject/api/v1/products',methods=['POST'])
-    def add_product():
-      product = []
+    def add_product(request):
+     
+      product = {
         'id': request.json['id'],
         'price': request.json['price'],
         'quantity':request.json['quantity'],
         'name': request.json['name']
     } 
-
 
     product=products.append(product)
     
