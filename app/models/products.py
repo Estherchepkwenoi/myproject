@@ -1,6 +1,6 @@
 import uuid
 class Product:
-    def __init__(self, name, quantity, price, category, id= str(uuid.uuid4())):
+    def __init__(self, name, quantity, price,category, id= str(uuid.uuid4())):
         self.name = name
         self.quantity = quantity,
         self.price = price,
