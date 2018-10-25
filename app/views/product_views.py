@@ -21,7 +21,7 @@ def get_product(id):
     
 @bp.route('/myproject/api/v1/products',methods=['POST'])
 def add_product(request):
-    #method for adding a product intoa list of products  
+    #method for adding a product into a list of products  
     try: 
         data=request.get_json()
         id=int(str(uuid.uuid4())) 
