@@ -19,7 +19,7 @@ def get_product(id):
 
     return jsonify(returned_product) 
     
-@bp.route('/myproject/api/v1/products',methods=['POST'])
+@app.route('api/v1/products',methods=['POST'])
 def add_product(request):
     #method for adding a product into a list of products  
     try: 
